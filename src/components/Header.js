@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Header = ({ title, name }) => {
   return (
-    <header style={headingStyle}>
+    <header>
       <h1>
         {title} from {name}
       </h1>
@@ -21,9 +21,9 @@ Header.propTypes = {
 };
 
 // CSS styling
-const headingStyle = {
-  color: "green",
-  backgroundColor: "black",
-};
+// const headingStyle = {
+//   color: "green",
+//   backgroundColor: "black",
+// };
 
 export default Header;

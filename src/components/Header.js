@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Button from "./Button";
 
 const Header = ({ title, name }) => {
   return (
@@ -6,7 +7,7 @@ const Header = ({ title, name }) => {
       <h1>
         {title} from {name}
       </h1>
-      <button className="btn">Add</button>
+      <Button color="green" text="Add" />
     </header>
   );
 };

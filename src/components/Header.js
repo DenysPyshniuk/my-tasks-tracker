@@ -5,7 +5,7 @@ const Header = ({ title, name, onAdd, showAdd }) => {
   return (
     <header className="header">
       <h1>
-        {title} from {name}
+        {name} {title}
       </h1>
       <Button
         color={showAdd ? "red" : "green"}
@@ -18,7 +18,7 @@ const Header = ({ title, name, onAdd, showAdd }) => {
 
 Header.defaultProps = {
   title: "Task Tracker",
-  name: "Denys",
+  name: "Yours",
 };
 
 Header.propTypes = {

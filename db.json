@@ -19,10 +19,10 @@
       "reminder": true
     },
     {
-      "text": " Take exam",
-      "day": " Tuesday",
+      "text": " Pick up adapter for Canon",
+      "day": " Tomorrow",
       "reminder": true,
-      "id": 4
+      "id": 5
     }
   ]
 }
